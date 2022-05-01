@@ -4,7 +4,7 @@
 ## Description
 {This application gives a snippet of how moringa school is,simply a landing page to what services are being offered at moringa from onboarding ,orientation upto time you graduate at this tech school }
 ## Setup/Installation Requirements
-* you need to have password 
+* you need to have password as authentication
 ## Known Bugs
 so far there are no known bugs
 ## Technologies Used
