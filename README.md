@@ -6,7 +6,7 @@
 ## Setup/Installation Requirements
 * you need to have password as authentication
 ## Known Bugs
-so far there are no known bugs
+so far there are no known bugs lest for viruses
 ## Technologies Used
 {I used html and css to create this project.css  was used to style the whole projec and how they appear from the end user}
 ## Support and contact details
