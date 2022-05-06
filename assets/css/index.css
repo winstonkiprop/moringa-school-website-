@@ -27,3 +27,132 @@ body{
     justify-content: space-between;
     margin-bottom: 40px;
 }
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    font-size: 14px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{ margin-right: 23px;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+    }
+    li:hover{
+        font-weight: 400;
+        transform: scale(1.1 1.5s ease);
+    }
+    .top-button{
+        display: flex;
+       
+    }
+    .enroll-button{
+        margin-left: 20px;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 20px;
+        background-color: #EC4067;
+        color: white;
+        font-weight: 300;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    submit-button hover{
+        background-color: red;
+        transform: scale(1.1 1.5s ease);
+    }
+    .about{
+
+    color: #EC4067;
+
+    }
+        /* ABOUT SECTION */
+        .about{
+            display: flex;
+            align-items: center;
+        }
+        .info-container{
+            flex: 1;
+            
+        }
+        .info-img{
+            flex: 1;
+            overflow: hidden;
+        color: #EC4067;}
+        .first-img{
+            width: 100%;
+            object-fit: cover;
+        }
+        p.top{
+            font-weight: 500;
+            
+        }
+        .about-title{
+            font-size: 30px;
+            font-weight: 300;
+        }
+        p.bottom{
+            font-weight:300 ;
+            width: 80%;
+        }
+        .about-first-button{
+            background-color: #EC4067;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 300;
+            
+        }
+        .about-first-button:hover{
+            background-color: red;
+            transform: scale(1.1 1.5s ease);
+        }
+        .about-second-button{
+            color: #EC4067;
+            background-color: white;
+            padding: 8px 28px;
+            border:1px solid #EC4067;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 300;
+            margin:10px ;
+        }
+        .about-second-button:hover{
+            
+            border:2px solid #EC4067;
+            transform: scale(1.1 1.5s ease);
+        }
+        /* SECTION CSS */
+        .section-top-text{
+            font-size: 12px;
+            font-weight: 300;
+            margin-left: 5px;
+        }
+        .section-container{
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            margin-top: 40px;
+        }
+        .section-wrapper{
+            padding: 60px 40px 0;
+        }
+        .info-container{
+            flex: 1;
+            box-sizing: border-box;
+        }
+
+     
+       
+        
+
+    
