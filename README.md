@@ -1,6 +1,6 @@
 
 #### MORINGA SCHOOL LANDING PAGE
-## Rose Aketch
+## winstone kiprop
 ## Description
 {This application gives a snippet of how moringa school is,simply a landing page to what services are being offered at moringa from onboarding ,orientation upto time you graduate at this tech school }
 ## Setup/Installation Requirements

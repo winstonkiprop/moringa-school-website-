@@ -10,9 +10,6 @@ body{
     padding: 0;
     font-family: 'poppins' sans-serif;
 }
-.container{
-
-}
 
 .container{
     padding: 0 50px;
@@ -149,7 +146,245 @@ li{ margin-right: 23px;
         .info-container{
             flex: 1;
             box-sizing: border-box;
+        }.info-text{
+            font-weight: 300;  
         }
+        
+        .img-container{
+            flex: 1;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .section-img{
+           width: 100%;
+           object-fit: cover;
+        }
+        .section-title{
+            margin-right: 10px;
+            font-weight: 500;
+            font-size: 22px;
+        }
+        .section-span{
+            background-color: #F5F5F7;
+        }
+        
+        .submit-button{
+            background-color: #EC4067;
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 300;
+            margin:10px 0;
+        
+        }
+        .submit-button:hover{
+            background-color: red;
+            transform: scale(1.1 1.5s ease);
+        }
+        
+        
+        /* STORIES SECTION */
+        
+        .stories-info{
+            display: flex;
+            align-items: center;
+        }
+        .stories-container{
+            position: relative;
+        }
+        .stories-info .section-top-text{
+            vertical-align: sub;
+        }
+        .stories-top-span{
+            display: flex;
+            position: absolute;
+            color: white;
+            top: 0;
+            right: 10px;
+            z-index: 7;
+            font-size:12px;
+            font-weight: 300;
+        }
+        .stories-bottom-span{
+            display: flex;
+            position: absolute;
+            color: white;
+            bottom:20px;
+            left: 10px;
+            z-index: 6;
+            font-size:12px;
+            font-weight: 300;
+        }
+        /* BOARD SECTION */
+        .board-container{
+            position: relative;
+        }
+        .board-top-span{
+            display: flex;
+            position: absolute;
+            color: white;
+            top: 0;
+            left: 10px;
+            z-index: 7;
+            font-size:12px;
+            font-weight: 300;
+        }
+        .board-bottom-span{
+            display: flex;
+            position: absolute;
+            color: white;
+            bottom:20px;
+            right: 10px;
+            z-index: 6;
+            font-size:12px;
+            font-weight: 300;
+        }
+        /* GRADUATION SECTION */
+        .graduation-container{
+            position: relative;
+        }
+        /* MENTOR SECTION */
+        .mentors-section{
+            margin-top: 50px;
+            overflow: hidden;
+            
+        }
+        .mentors-section .section-top-text{
+            vertical-align:super ;
+        }
+        .mentors{
+            display: flex;
+            padding: 10px 20px 0;
+        }
+        .mentor-wrapper{
+            margin-left: 20px;
+            width: 200px;
+        }
+        .mentors-title-container{
+            display: flex;
+            
+        }
+        
+        .mentor-info-title{
+            /* display: flex; */
+            position: relative;
+        }
+        .mentor-img{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 2px;
+        }
+        .mentor-name{
+            color:white;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .mentor-role{
+            color: #EC4067;
+        }
+        .mentor-button{
+            background-color: #EC4067;
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 300;
+            margin:10px 0;
+        }
+        .mentor-button:hover{
+            background-color: red;
+            transform: scale(1.1 1.5s ease);
+        }
+        .mentor-info-container{
+            padding: 0 5px
+        }
+        .mentor-bottom-text{
+            font-weight: 200;
+            font-size: 14px;
+        }
+        
+        /* PROJECT SECTION */
+        .project-section{
+            margin-top: 50px;
+            overflow: hidden;
+        }
+        .project-container{
+            display: flex;
+            align-items: center;
+        }
+        .project-container .section-top-text{
+            vertical-align: baseline;
+        }
+        .project-wrapper{
+            display: flex;
+        }
+        
+        
+        .project-span{
+            font-weight: 600;
+        }
+        .project-title{
+            color:#EC4067;
+            font-weight: 300;
+            font-size: 30px;
+        }
+        .project-text{
+            font-weight: 200;
+            
+        }
+        
+        .project-img{
+            width:100%;
+            object-fit: cover;
+        }
+        
+        /* CONTACT SECTION */
+        .contact-container{
+            margin-top: 80px;
+        }
+        .contact-title{
+            color: #EC4067;
+            font-weight: 500;
+        }
+        .enroll-button,.contact{
+            margin:0 10px ;
+            display: flex;
+         
+        }
+        .contact-menu{
+            display: flex;
+            align-items: center;
+        }
+        .contact-link{
+            text-decoration: none;
+            color: #EC4067;
+        }
+        
+        /* FOOTER SECTION */
+        .footer{
+            margin-top: 40px;
+            background-color: #F5F5F7;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+           .footer-text{
+    font-weight: 300;
+}
+a{
+    text-decoration:none !important;
+    color: black;
+    
+} 
+
 
      
        
