@@ -333,20 +333,23 @@ li{ margin-right: 23px;
             color:#EC4067;
             font-weight: 300;
             font-size: 30px;
+            float: left;
         }
         .project-text{
             font-weight: 200;
-            
+            float: left;
         }
         
         .project-img{
             width:100%;
             object-fit: cover;
+            width: 300;
         }
         
         /* CONTACT SECTION */
         .contact-container{
             margin-top: 80px;
+            float: left;
         }
         .contact-title{
             color: #EC4067;
@@ -384,6 +387,9 @@ a{
     color: black;
     
 } 
+.colour{
+    color: #EC4067;
+}
 
 
      
