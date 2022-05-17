@@ -5,11 +5,7 @@
    box-sizing: border-box;
    font-family: 'poppins',sans-serif;
 }
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins' sans-serif;
-}
+
 
 .container{
     padding: 0 50px;
@@ -390,10 +386,26 @@ a{
 .colour{
     color: #EC4067;
 }
-
-
-     
-       
-        
-
+.bottom{
+    color: black;
+    text-align: right;
     
+}
+
+
+.project-container{
+    padding-right: 300px;
+}
+#russia{
+   
+   height: 350px;
+    width: 600px;
+    float: right;
+   
+}
+.contact-container{
+    background-color:whitesmoke;
+    float: right;
+    padding-right: 300px;
+}
+
